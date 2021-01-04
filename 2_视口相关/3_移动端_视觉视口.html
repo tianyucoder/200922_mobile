@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta charset="UTF-8" />
-		<title>布局视口</title>
+		<title>视觉视口</title>
 		<style>
 			*{
 				margin: 0;
@@ -20,7 +20,8 @@
 		<div id="demo"></div>
 		<script type="text/javascript" >
 			const demo = document.getElementById('demo')
-			demo.innerHTML = '布局视口宽度：'+ document.documentElement.clientWidth
+			demo.innerHTML = '布局视口宽度：'+ document.documentElement.clientWidth + '<br/>'
+			demo.innerHTML += '视觉视口宽度：'+ window.innerWidth
 		</script>
 	</body>
 </html>
